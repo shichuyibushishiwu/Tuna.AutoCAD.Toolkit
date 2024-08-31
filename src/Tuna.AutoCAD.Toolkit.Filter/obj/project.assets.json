@@ -1,0 +1,255 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "AutoCAD.NET/25.0.1": {
+        "type": "package",
+        "dependencies": {
+          "AutoCAD.NET.Core": "[25.0.0]"
+        },
+        "compile": {
+          "lib/net8.0/AcCui.dll": {
+            "related": ".xml"
+          },
+          "lib/net8.0/AcDx.dll": {
+            "related": ".xml"
+          },
+          "lib/net8.0/AcMgd.dll": {
+            "related": ".xml"
+          },
+          "lib/net8.0/AcMr.dll": {
+            "related": ".xml"
+          },
+          "lib/net8.0/AcSeamless.dll": {
+            "related": ".xml"
+          },
+          "lib/net8.0/AcTcMgd.dll": {
+            "related": ".xml"
+          },
+          "lib/net8.0/AcWindows.dll": {
+            "related": ".xml"
+          },
+          "lib/net8.0/AdUIMgd.dll": {
+            "related": ".xml"
+          },
+          "lib/net8.0/AdUiPalettes.dll": {
+            "related": ".xml"
+          },
+          "lib/net8.0/AdWindows.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AcCui.dll": {
+            "related": ".xml"
+          },
+          "lib/net8.0/AcDx.dll": {
+            "related": ".xml"
+          },
+          "lib/net8.0/AcMgd.dll": {
+            "related": ".xml"
+          },
+          "lib/net8.0/AcMr.dll": {
+            "related": ".xml"
+          },
+          "lib/net8.0/AcSeamless.dll": {
+            "related": ".xml"
+          },
+          "lib/net8.0/AcTcMgd.dll": {
+            "related": ".xml"
+          },
+          "lib/net8.0/AcWindows.dll": {
+            "related": ".xml"
+          },
+          "lib/net8.0/AdUIMgd.dll": {
+            "related": ".xml"
+          },
+          "lib/net8.0/AdUiPalettes.dll": {
+            "related": ".xml"
+          },
+          "lib/net8.0/AdWindows.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AutoCAD.NET.Core/25.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AutoCAD.NET.Model": "[25.0.0]"
+        },
+        "compile": {
+          "lib/net8.0/AcCoreMgd.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AcCoreMgd.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AutoCAD.NET.Model/25.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/AcDbMgd.dll": {
+            "related": ".xml"
+          },
+          "lib/net8.0/acdbmgdbrep.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/AcDbMgd.dll": {
+            "related": ".xml"
+          },
+          "lib/net8.0/acdbmgdbrep.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AutoCAD.NET/25.0.1": {
+      "sha512": "57MbBZyhQh6nM16w/tF88uXPUascZygGfYBzE9QsuaXjM/baPArjaTnAJmvfnkzgKLsXtZrJAzr2rCtxVygPiQ==",
+      "type": "package",
+      "path": "autocad.net/25.0.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "adsk.xml",
+        "autocad.net.25.0.1.nupkg.sha512",
+        "autocad.net.nuspec",
+        "lib/net8.0/AcCui.dll",
+        "lib/net8.0/AcCui.xml",
+        "lib/net8.0/AcDx.dll",
+        "lib/net8.0/AcDx.xml",
+        "lib/net8.0/AcMgd.dll",
+        "lib/net8.0/AcMgd.xml",
+        "lib/net8.0/AcMr.dll",
+        "lib/net8.0/AcMr.xml",
+        "lib/net8.0/AcSeamless.dll",
+        "lib/net8.0/AcSeamless.xml",
+        "lib/net8.0/AcTcMgd.dll",
+        "lib/net8.0/AcTcMgd.xml",
+        "lib/net8.0/AcWindows.dll",
+        "lib/net8.0/AcWindows.xml",
+        "lib/net8.0/AdUIMgd.dll",
+        "lib/net8.0/AdUIMgd.xml",
+        "lib/net8.0/AdUiPalettes.dll",
+        "lib/net8.0/AdUiPalettes.xml",
+        "lib/net8.0/AdWindows.dll",
+        "lib/net8.0/AdWindows.xml",
+        "tools/install.ps1"
+      ]
+    },
+    "AutoCAD.NET.Core/25.0.0": {
+      "sha512": "jPwsZgVs+4xqXtMLWJjgb4WSSzbb7YGbgn/BqT7LGPRthQb/93CmRZyuSgfjjSK8EgL+YsfRuRYVvYNGHrw3TA==",
+      "type": "package",
+      "path": "autocad.net.core/25.0.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "adsk.xml",
+        "autocad.net.core.25.0.0.nupkg.sha512",
+        "autocad.net.core.nuspec",
+        "lib/net8.0/AcCoreMgd.dll",
+        "lib/net8.0/AcCoreMgd.xml",
+        "tools/install.ps1"
+      ]
+    },
+    "AutoCAD.NET.Model/25.0.0": {
+      "sha512": "XGKd/R/MZ5oHFEMOtxHh9L307ss6XSnW4S0JSC3UkRjvdgv8rTygXkqz+vGoRoUl8IWU/ooskfVT/qOikFfteA==",
+      "type": "package",
+      "path": "autocad.net.model/25.0.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "adsk.xml",
+        "autocad.net.model.25.0.0.nupkg.sha512",
+        "autocad.net.model.nuspec",
+        "lib/net8.0/AcDbMgd.dll",
+        "lib/net8.0/AcDbMgd.xml",
+        "lib/net8.0/AcDbMgdBrep.xml",
+        "lib/net8.0/acdbmgdbrep.dll",
+        "tools/install.ps1"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "AutoCAD.NET >= 25.0.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\YuiX\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\YuiX\\source\\repos\\Tuna.AutoCAD.Toolkit\\src\\tuna.autocad.toolkit.filter\\Tuna.AutoCAD.Toolkit.Filter.csproj",
+      "projectName": "Tuna.AutoCAD.Toolkit.Filter",
+      "projectPath": "C:\\Users\\YuiX\\source\\repos\\Tuna.AutoCAD.Toolkit\\src\\tuna.autocad.toolkit.filter\\Tuna.AutoCAD.Toolkit.Filter.csproj",
+      "packagesPath": "C:\\Users\\YuiX\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\YuiX\\source\\repos\\Tuna.AutoCAD.Toolkit\\src\\tuna.autocad.toolkit.filter\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\YuiX\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "AutoCAD.NET": {
+            "target": "Package",
+            "version": "[25.0.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

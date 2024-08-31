@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "pBJdPiVCoIM=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\YuiX\\source\\repos\\Tuna.AutoCAD.Toolkit\\src\\tuna.autocad.toolkit.filter\\Tuna.AutoCAD.Toolkit.Filter.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\YuiX\\.nuget\\packages\\autocad.net\\25.0.1\\autocad.net.25.0.1.nupkg.sha512",
+    "C:\\Users\\YuiX\\.nuget\\packages\\autocad.net.core\\25.0.0\\autocad.net.core.25.0.0.nupkg.sha512",
+    "C:\\Users\\YuiX\\.nuget\\packages\\autocad.net.model\\25.0.0\\autocad.net.model.25.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
