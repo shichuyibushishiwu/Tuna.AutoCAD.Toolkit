@@ -17,5 +17,8 @@ internal class FilterDxfCodeAttribute : Attribute
         DxfCode = code;
     }
 
+    /// <summary>
+    /// Acad dxf code
+    /// </summary>
     public DxfCode DxfCode { get; }
 }

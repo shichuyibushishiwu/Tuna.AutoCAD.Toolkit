@@ -14,7 +14,7 @@ public sealed class LayerFilter : FilterBase
     {
         if (string.IsNullOrEmpty(name))
         {
-            throw new ArgumentNullException("");
+            throw new ArgumentNullException("layer name can not be null");
         }
 
         LayerName = name;

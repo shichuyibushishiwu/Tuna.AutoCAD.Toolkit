@@ -13,13 +13,22 @@ namespace Tuna.AutoCAD.Toolkit.Filter;
 /// </summary>
 public abstract class LogicalFilter : FilterBase
 {
+    /// <summary>
+    /// Be included in the filter
+    /// </summary>
     protected FilterBase[] Filters { get; set; } = default!;
 
+    /// <summary>
+    /// Defined a logical filter
+    /// </summary>
+    /// <param name="logicalCode"></param>
+    /// <param name="filters"></param>
+    /// <exception cref="ArgumentNullException"></exception>
     protected LogicalFilter(string logicalCode, FilterBase[] filters)
     {
         if (filters == null)
         {
-            throw new ArgumentNullException("");
+            throw new ArgumentNullException("filters can not be null");
         }
 
         LogicalCode = logicalCode;
@@ -34,15 +43,22 @@ public abstract class LogicalFilter : FilterBase
         TypeValues = typedValues.ToArray();
     }
 
+    /// <summary>
+    /// Logical code
+    /// </summary>
     protected string LogicalCode { get; set; }
 
+    /// <summary>
+    /// <inheritdoc/>
+    /// </summary>
+    /// <returns></returns>
     public override string ToString()
     {
         Type type = this.GetType();
         FilterDxfCodeAttribute? attribute = type.GetCustomAttribute<FilterDxfCodeAttribute>();
         if (attribute == null)
         {
-            return $"{type}";
+            return $"{type} not added {typeof(FilterDxfCodeAttribute)}";
         }
 
         StringBuilder stringBuilder = new StringBuilder();

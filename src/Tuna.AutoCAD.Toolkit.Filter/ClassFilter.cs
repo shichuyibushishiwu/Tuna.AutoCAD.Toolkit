@@ -4,7 +4,7 @@ using System;
 namespace Tuna.AutoCAD.Toolkit.Filter;
 
 /// <summary>
-/// A acad entity filter 
+/// A acad entity filter that filters by entity class type
 /// </summary>
 [FilterDxfCode(code: DxfCode.Start)]
 public sealed class ClassFilter : FilterBase

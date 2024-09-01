@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Tuna.AutoCAD.Toolkit.Filter")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fd9622c4e7cce8ad39006db4286af27c4b00544b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+17dbe523fbe3fb6a673ceacf27e78f7fe9d18b88")]
 [assembly: System.Reflection.AssemblyProductAttribute("Tuna.AutoCAD.Toolkit.Filter")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Tuna.AutoCAD.Toolkit.Filter")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

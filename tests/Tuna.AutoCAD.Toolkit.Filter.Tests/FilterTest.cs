@@ -51,6 +51,17 @@ public class FilterTests
     }
 
     [Test]
+    public void LogicalNotTest()
+    {
+        ClassFilter classFilter = new ClassFilter(typeof(MLeader));
+        ClassFilter textCLass = new ClassFilter(typeof(DBText));
+        LogicalNotFilter logicalAndFilter = new LogicalNotFilter(classFilter, textCLass);
+        Console.WriteLine(logicalAndFilter);
+
+        Assert.Pass();
+    }
+
+    [Test]
     public void CompositionalLogicalTest()
     {
         ClassFilter classFilter = new ClassFilter(typeof(MLeader));

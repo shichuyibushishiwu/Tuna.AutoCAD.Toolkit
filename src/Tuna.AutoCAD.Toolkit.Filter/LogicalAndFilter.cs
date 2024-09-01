@@ -8,11 +8,16 @@ using System.Threading.Tasks;
 namespace Tuna.AutoCAD.Toolkit.Filter;
 
 /// <summary>
-/// A filter
+/// A filter 
 /// </summary>
 [FilterDxfCode(Autodesk.AutoCAD.DatabaseServices.DxfCode.Operator)]
 public sealed class LogicalAndFilter : LogicalFilter
 {
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="filters"></param>
+    /// <exception cref="Exception"></exception>
     public LogicalAndFilter(params FilterBase[] filters) : base("And", filters)
     {
         var typeGrounp = filters.GroupBy(filter => filter.GetType());
