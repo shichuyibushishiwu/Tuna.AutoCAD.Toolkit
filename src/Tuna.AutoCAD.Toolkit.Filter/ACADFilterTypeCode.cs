@@ -5,10 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Tuna.AutoCAD.Toolkit.Filter;
+
 /// <summary>
 /// Acad filter type code
 /// </summary>
-public class ACADFilterTypeCode
+public class AcadFilterTypeCode
 {
     /// <summary>
     /// <see cref="Autodesk.AutoCAD.DatabaseServices.DxfCode.Operator"/>

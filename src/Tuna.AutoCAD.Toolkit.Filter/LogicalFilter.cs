@@ -1,5 +1,6 @@
 ﻿using Autodesk.AutoCAD.DatabaseServices;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
@@ -11,7 +12,7 @@ namespace Tuna.AutoCAD.Toolkit.Filter;
 /// <summary>
 /// A base class of logical filter
 /// </summary>
-public abstract class LogicalFilter : FilterBase
+public abstract class LogicalFilter : FilterBase, IEnumerable<FilterBase>
 {
     /// <summary>
     /// Be included in the filter
@@ -36,9 +37,9 @@ public abstract class LogicalFilter : FilterBase
 
         List<TypedValue> typedValues = new List<TypedValue>();
 
-        typedValues.Add(new TypedValue(ACADFilterTypeCode.Operator, $"<{logicalCode}"));
+        typedValues.Add(new TypedValue(AcadFilterTypeCode.Operator, $"<{logicalCode}"));
         typedValues.AddRange(filters.SelectMany(f => f.TypeValues));
-        typedValues.Add(new TypedValue(ACADFilterTypeCode.Operator, $"{logicalCode}>"));
+        typedValues.Add(new TypedValue(AcadFilterTypeCode.Operator, $"{logicalCode}>"));
 
         TypeValues = typedValues.ToArray();
     }
@@ -70,4 +71,14 @@ public abstract class LogicalFilter : FilterBase
         stringBuilder.Append($"{LogicalCode}>");
         return stringBuilder.ToString();
     }
+
+    public IEnumerator<FilterBase> GetEnumerator()
+    {
+        foreach (var item in Filters)
+        {
+            yield return item;
+        }
+    }
+
+    IEnumerator IEnumerable.GetEnumerator() => this.GetEnumerator();
 }

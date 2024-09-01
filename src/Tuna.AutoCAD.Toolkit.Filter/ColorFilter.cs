@@ -14,7 +14,7 @@ public class ColorFilter : FilterBase
     public ColorFilter(short colorIndex)
     {
         ColorIndex = colorIndex;
-        TypeValues = [new TypedValue(ACADFilterTypeCode.Color, colorIndex)];
+        TypeValues = [new TypedValue(AcadFilterTypeCode.Color, colorIndex)];
     }
 
     public short ColorIndex { get; set; }

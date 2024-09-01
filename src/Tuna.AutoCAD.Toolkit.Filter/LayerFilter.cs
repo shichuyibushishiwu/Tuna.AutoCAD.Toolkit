@@ -18,7 +18,7 @@ public sealed class LayerFilter : FilterBase
         }
 
         LayerName = name;
-        TypeValues = [new TypedValue(ACADFilterTypeCode.LayerName, name)];
+        TypeValues = [new TypedValue(AcadFilterTypeCode.LayerName, name)];
     }
 
     internal string LayerName { get; set; }

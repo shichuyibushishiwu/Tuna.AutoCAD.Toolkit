@@ -39,10 +39,10 @@ public class FilterTests
     public void LogicalAndTest()
     {
         ClassFilter classFilter = new ClassFilter(typeof(MLeader));
-        LayerFilter textCLass = new LayerFilter ("Wall");
+        LayerFilter textCLass = new LayerFilter("Wall");
         LogicalAndFilter logicalAndFilter = new LogicalAndFilter(classFilter, textCLass);
         Console.WriteLine(logicalAndFilter);
-      
+
 
         Assert.That(logicalAndFilter.TypeValues.Length, Is.EqualTo(4));
     }
@@ -79,5 +79,14 @@ public class FilterTests
         Console.WriteLine(logicalAndFilter);
 
         Assert.Pass();
+    }
+
+    [Test]
+    public void ParameterFilterTest()
+    {
+        ParameterFilter parameterFilter = new ParameterFilter(typeof(BlockReference),
+            new FilterStringContainsRule(BuiltinParameters.BlockReference
+            .BlockName, "s"));
+        Console.WriteLine(parameterFilter);
     }
 }

@@ -9,45 +9,45 @@ namespace Tuna.AutoCAD.Toolkit.Filter;
 [FilterDxfCode(code: DxfCode.Start)]
 public sealed class ClassFilter : FilterBase
 {
-    private static ACADTypeDescriptor[] TypeDescriptors { get; } =
+    internal static AcadTypeDescriptor[] TypeDescriptors { get; } =
     [
-        new ACADTypeDescriptor(typeof(Arc),"ARC"),
-        new ACADTypeDescriptor(typeof(AttributeDefinition),"ATTDEF"),
-        new ACADTypeDescriptor(typeof(AttributeReference),"ATTRIB"),
-        new ACADTypeDescriptor(typeof(Body),"BODY"),
-        new ACADTypeDescriptor(typeof(Circle),"CIRCLE"),
-        new ACADTypeDescriptor(typeof(Dimension),"DIMENSION"),
-        new ACADTypeDescriptor(typeof(DBText),"TEXT"),
-        new ACADTypeDescriptor(typeof(Ellipse),"ELLIPSE"),
-        new ACADTypeDescriptor(typeof(Hatch),"HATCH"),
-        new ACADTypeDescriptor(typeof(Helix),"HELIX"),
-        new ACADTypeDescriptor(typeof(Image),"IMAGE"),
-        new ACADTypeDescriptor(typeof(BlockReference),"INSERT"),
-        new ACADTypeDescriptor(typeof(Leader),"LEADER"),
-        new ACADTypeDescriptor(typeof(Light),"LIGHT"),
-        new ACADTypeDescriptor(typeof(Line),"LINE"),
-        new ACADTypeDescriptor(typeof(Polyline),"LWPOLYLINE"),
-        new ACADTypeDescriptor(typeof(MLeader),"MLEADER"),
-        new ACADTypeDescriptor(typeof(Mline),"MLINE"),
-        new ACADTypeDescriptor(typeof(MText),"MTEXT"),
-        new ACADTypeDescriptor(typeof(Ole2Frame),"ONE2FRAME"),
+        new AcadTypeDescriptor(typeof(Arc),"ARC"),
+        new AcadTypeDescriptor(typeof(AttributeDefinition),"ATTDEF"),
+        new AcadTypeDescriptor(typeof(AttributeReference),"ATTRIB"),
+        new AcadTypeDescriptor(typeof(Body),"BODY"),
+        new AcadTypeDescriptor(typeof(Circle),"CIRCLE"),
+        new AcadTypeDescriptor(typeof(Dimension),"DIMENSION"),
+        new AcadTypeDescriptor(typeof(DBText),"TEXT"),
+        new AcadTypeDescriptor(typeof(Ellipse),"ELLIPSE"),
+        new AcadTypeDescriptor(typeof(Hatch),"HATCH"),
+        new AcadTypeDescriptor(typeof(Helix),"HELIX"),
+        new AcadTypeDescriptor(typeof(Image),"IMAGE"),
+        new AcadTypeDescriptor(typeof(BlockReference),"INSERT"),
+        new AcadTypeDescriptor(typeof(Leader),"LEADER"),
+        new AcadTypeDescriptor(typeof(Light),"LIGHT"),
+        new AcadTypeDescriptor(typeof(Line),"LINE"),
+        new AcadTypeDescriptor(typeof(Polyline),"LWPOLYLINE"),
+        new AcadTypeDescriptor(typeof(MLeader),"MLEADER"),
+        new AcadTypeDescriptor(typeof(Mline),"MLINE"),
+        new AcadTypeDescriptor(typeof(MText),"MTEXT"),
+        new AcadTypeDescriptor(typeof(Ole2Frame),"ONE2FRAME"),
     ];
 
     public ClassFilter(Type type)
     {
         if (type == null)
         {
-            throw new ArgumentNullException("type");
+            throw new ArgumentNullException("type can not be null");
         }
 
-        ACADTypeDescriptor? descriptor = TypeDescriptors.FirstOrDefault(descriptor => descriptor.Type == type);
+        AcadTypeDescriptor? descriptor = TypeDescriptors.FirstOrDefault(descriptor => descriptor.Type == type);
         if (descriptor == null)
         {
-            throw new ArgumentNullException("");
+            throw new ArgumentNullException($"can not find {type} in allowed type list");
         }
 
         Code = descriptor.Value.Code;
-        TypeValues = [new TypedValue(ACADFilterTypeCode.Class, Code)];
+        TypeValues = [new TypedValue(AcadFilterTypeCode.Class, Code)];
     }
 
     public string Code { get; }
@@ -55,14 +55,14 @@ public sealed class ClassFilter : FilterBase
     /// <summary>
     /// Map of acad type and type code
     /// </summary>
-    private struct ACADTypeDescriptor
+    internal struct AcadTypeDescriptor
     {
         /// <summary>
         /// Defined a acad type map
         /// </summary>
         /// <param name="type">Acad entity type</param>
         /// <param name="code">Acad entity code</param>
-        public ACADTypeDescriptor(Type type, string code)
+        public AcadTypeDescriptor(Type type, string code)
         {
             Type = type;
             Code = code;
