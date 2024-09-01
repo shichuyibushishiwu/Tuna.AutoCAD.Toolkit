@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5214722E-B2F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tuna.AutoCAD.Toolkit.Filter", "src\tuna.autocad.toolkit.filter\Tuna.AutoCAD.Toolkit.Filter.csproj", "{637F4261-63AD-42C3-91AD-CA6FB55CD6BB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{AED663E4-DAC1-47CB-81DD-D8D5C6F429EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tuna.AutoCAD.Toolkit.Filter.Tests", "tests\tuna.AutoCAD.Toolkit.Filter.Tests\Tuna.AutoCAD.Toolkit.Filter.Tests.csproj", "{5B82FD62-403E-4E72-AF09-B467FB8F167A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,8 +24,13 @@ Global
 		{637F4261-63AD-42C3-91AD-CA6FB55CD6BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{637F4261-63AD-42C3-91AD-CA6FB55CD6BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{637F4261-63AD-42C3-91AD-CA6FB55CD6BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B82FD62-403E-4E72-AF09-B467FB8F167A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B82FD62-403E-4E72-AF09-B467FB8F167A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B82FD62-403E-4E72-AF09-B467FB8F167A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B82FD62-403E-4E72-AF09-B467FB8F167A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{637F4261-63AD-42C3-91AD-CA6FB55CD6BB} = {5214722E-B2F4-48A3-8E95-B573782D271D}
+		{5B82FD62-403E-4E72-AF09-B467FB8F167A} = {AED663E4-DAC1-47CB-81DD-D8D5C6F429EB}
 	EndGlobalSection
 EndGlobal
