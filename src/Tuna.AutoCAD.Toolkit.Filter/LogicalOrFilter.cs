@@ -13,5 +13,12 @@ namespace Tuna.AutoCAD.Toolkit.Filter;
 [FilterDxfCode(Autodesk.AutoCAD.DatabaseServices.DxfCode.Operator)]
 public sealed class LogicalOrFilter : LogicalFilter
 {
-    public LogicalOrFilter(params FilterBase[] filters) : base("Or", filters) { }
+    public LogicalOrFilter(params FilterBase[] filters) : base("Or", filters)
+    {
+        var typeGrounp = filters.GroupBy(filter => filter.GetType());
+        if (typeGrounp.Count() != 1)
+        {
+            throw new Exception("Logical or can not contains the different conditions");
+        }
+    }
 }

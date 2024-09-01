@@ -31,7 +31,7 @@ public class FilterTests
     public void LogicalAndTest()
     {
         ClassFilter classFilter = new ClassFilter(typeof(MLeader));
-        ClassFilter textCLass = new ClassFilter(typeof(DBText));
+        LayerFilter textCLass = new LayerFilter ("Wall");
         LogicalAndFilter logicalAndFilter = new LogicalAndFilter(classFilter, textCLass);
         Console.WriteLine(logicalAndFilter);
       

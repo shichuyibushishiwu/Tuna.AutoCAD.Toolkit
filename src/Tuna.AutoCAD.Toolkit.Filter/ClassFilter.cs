@@ -3,6 +3,9 @@ using System;
 
 namespace Tuna.AutoCAD.Toolkit.Filter;
 
+/// <summary>
+/// A acad entity filter 
+/// </summary>
 [FilterDxfCode(code: DxfCode.Start)]
 public sealed class ClassFilter : FilterBase
 {

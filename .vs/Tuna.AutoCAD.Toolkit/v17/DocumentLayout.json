@@ -3,32 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\YuiX\\source\\repos\\Tuna.AutoCAD.Toolkit\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{637F4261-63AD-42C3-91AD-CA6FB55CD6BB}|src\\tuna.autocad.toolkit.filter\\Tuna.AutoCAD.Toolkit.Filter.csproj|c:\\users\\yuix\\source\\repos\\tuna.autocad.toolkit\\src\\tuna.autocad.toolkit.filter\\logicalfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{637F4261-63AD-42C3-91AD-CA6FB55CD6BB}|src\\tuna.autocad.toolkit.filter\\Tuna.AutoCAD.Toolkit.Filter.csproj|solutionrelative:src\\tuna.autocad.toolkit.filter\\logicalfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5B82FD62-403E-4E72-AF09-B467FB8F167A}|tests\\tuna.AutoCAD.Toolkit.Filter.Tests\\Tuna.AutoCAD.Toolkit.Filter.Tests.csproj|c:\\users\\yuix\\source\\repos\\tuna.autocad.toolkit\\tests\\tuna.autocad.toolkit.filter.tests\\filtertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B82FD62-403E-4E72-AF09-B467FB8F167A}|tests\\tuna.AutoCAD.Toolkit.Filter.Tests\\Tuna.AutoCAD.Toolkit.Filter.Tests.csproj|solutionrelative:tests\\tuna.autocad.toolkit.filter.tests\\filtertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{637F4261-63AD-42C3-91AD-CA6FB55CD6BB}|src\\tuna.autocad.toolkit.filter\\Tuna.AutoCAD.Toolkit.Filter.csproj|c:\\users\\yuix\\source\\repos\\tuna.autocad.toolkit\\src\\tuna.autocad.toolkit.filter\\logicalorfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{637F4261-63AD-42C3-91AD-CA6FB55CD6BB}|src\\tuna.autocad.toolkit.filter\\Tuna.AutoCAD.Toolkit.Filter.csproj|solutionrelative:src\\tuna.autocad.toolkit.filter\\logicalorfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{637F4261-63AD-42C3-91AD-CA6FB55CD6BB}|src\\tuna.autocad.toolkit.filter\\Tuna.AutoCAD.Toolkit.Filter.csproj|c:\\users\\yuix\\source\\repos\\tuna.autocad.toolkit\\src\\tuna.autocad.toolkit.filter\\layerfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{637F4261-63AD-42C3-91AD-CA6FB55CD6BB}|src\\tuna.autocad.toolkit.filter\\Tuna.AutoCAD.Toolkit.Filter.csproj|solutionrelative:src\\tuna.autocad.toolkit.filter\\layerfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{637F4261-63AD-42C3-91AD-CA6FB55CD6BB}|src\\tuna.autocad.toolkit.filter\\Tuna.AutoCAD.Toolkit.Filter.csproj|c:\\users\\yuix\\source\\repos\\tuna.autocad.toolkit\\src\\tuna.autocad.toolkit.filter\\filterbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{637F4261-63AD-42C3-91AD-CA6FB55CD6BB}|src\\tuna.autocad.toolkit.filter\\Tuna.AutoCAD.Toolkit.Filter.csproj|solutionrelative:src\\tuna.autocad.toolkit.filter\\filterbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{637F4261-63AD-42C3-91AD-CA6FB55CD6BB}|src\\tuna.autocad.toolkit.filter\\Tuna.AutoCAD.Toolkit.Filter.csproj|c:\\users\\yuix\\source\\repos\\tuna.autocad.toolkit\\src\\tuna.autocad.toolkit.filter\\logicalandfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{637F4261-63AD-42C3-91AD-CA6FB55CD6BB}|src\\tuna.autocad.toolkit.filter\\Tuna.AutoCAD.Toolkit.Filter.csproj|solutionrelative:src\\tuna.autocad.toolkit.filter\\logicalandfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{637F4261-63AD-42C3-91AD-CA6FB55CD6BB}|src\\tuna.autocad.toolkit.filter\\Tuna.AutoCAD.Toolkit.Filter.csproj|c:\\users\\yuix\\source\\repos\\tuna.autocad.toolkit\\src\\tuna.autocad.toolkit.filter\\layerfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{637F4261-63AD-42C3-91AD-CA6FB55CD6BB}|src\\tuna.autocad.toolkit.filter\\Tuna.AutoCAD.Toolkit.Filter.csproj|solutionrelative:src\\tuna.autocad.toolkit.filter\\layerfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{637F4261-63AD-42C3-91AD-CA6FB55CD6BB}|src\\tuna.autocad.toolkit.filter\\Tuna.AutoCAD.Toolkit.Filter.csproj|c:\\users\\yuix\\source\\repos\\tuna.autocad.toolkit\\src\\tuna.autocad.toolkit.filter\\logicalorfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{637F4261-63AD-42C3-91AD-CA6FB55CD6BB}|src\\tuna.autocad.toolkit.filter\\Tuna.AutoCAD.Toolkit.Filter.csproj|solutionrelative:src\\tuna.autocad.toolkit.filter\\logicalorfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{637F4261-63AD-42C3-91AD-CA6FB55CD6BB}|src\\tuna.autocad.toolkit.filter\\Tuna.AutoCAD.Toolkit.Filter.csproj|c:\\users\\yuix\\source\\repos\\tuna.autocad.toolkit\\src\\tuna.autocad.toolkit.filter\\classfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{637F4261-63AD-42C3-91AD-CA6FB55CD6BB}|src\\tuna.autocad.toolkit.filter\\Tuna.AutoCAD.Toolkit.Filter.csproj|solutionrelative:src\\tuna.autocad.toolkit.filter\\classfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{637F4261-63AD-42C3-91AD-CA6FB55CD6BB}|src\\tuna.autocad.toolkit.filter\\Tuna.AutoCAD.Toolkit.Filter.csproj|c:\\users\\yuix\\source\\repos\\tuna.autocad.toolkit\\src\\tuna.autocad.toolkit.filter\\filterbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{637F4261-63AD-42C3-91AD-CA6FB55CD6BB}|src\\tuna.autocad.toolkit.filter\\Tuna.AutoCAD.Toolkit.Filter.csproj|solutionrelative:src\\tuna.autocad.toolkit.filter\\filterbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{637F4261-63AD-42C3-91AD-CA6FB55CD6BB}|src\\tuna.autocad.toolkit.filter\\Tuna.AutoCAD.Toolkit.Filter.csproj|c:\\users\\yuix\\source\\repos\\tuna.autocad.toolkit\\src\\tuna.autocad.toolkit.filter\\logicalfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{637F4261-63AD-42C3-91AD-CA6FB55CD6BB}|src\\tuna.autocad.toolkit.filter\\Tuna.AutoCAD.Toolkit.Filter.csproj|solutionrelative:src\\tuna.autocad.toolkit.filter\\logicalfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{637F4261-63AD-42C3-91AD-CA6FB55CD6BB}|src\\tuna.autocad.toolkit.filter\\Tuna.AutoCAD.Toolkit.Filter.csproj|c:\\users\\yuix\\source\\repos\\tuna.autocad.toolkit\\src\\tuna.autocad.toolkit.filter\\filterdxfcodeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,11 +46,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LogicalAndFilter.cs",
+              "DocumentMoniker": "C:\\Users\\YuiX\\source\\repos\\Tuna.AutoCAD.Toolkit\\src\\Tuna.AutoCAD.Toolkit.Filter\\LogicalAndFilter.cs",
+              "RelativeDocumentMoniker": "src\\Tuna.AutoCAD.Toolkit.Filter\\LogicalAndFilter.cs",
+              "ToolTip": "C:\\Users\\YuiX\\source\\repos\\Tuna.AutoCAD.Toolkit\\src\\Tuna.AutoCAD.Toolkit.Filter\\LogicalAndFilter.cs",
+              "RelativeToolTip": "src\\Tuna.AutoCAD.Toolkit.Filter\\LogicalAndFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T08:50:52.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClassFilter.cs",
+              "DocumentMoniker": "C:\\Users\\YuiX\\source\\repos\\Tuna.AutoCAD.Toolkit\\src\\Tuna.AutoCAD.Toolkit.Filter\\ClassFilter.cs",
+              "RelativeDocumentMoniker": "src\\Tuna.AutoCAD.Toolkit.Filter\\ClassFilter.cs",
+              "ToolTip": "C:\\Users\\YuiX\\source\\repos\\Tuna.AutoCAD.Toolkit\\src\\Tuna.AutoCAD.Toolkit.Filter\\ClassFilter.cs",
+              "RelativeToolTip": "src\\Tuna.AutoCAD.Toolkit.Filter\\ClassFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T08:47:30.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "LogicalOrFilter.cs",
+              "DocumentMoniker": "C:\\Users\\YuiX\\source\\repos\\Tuna.AutoCAD.Toolkit\\src\\Tuna.AutoCAD.Toolkit.Filter\\LogicalOrFilter.cs",
+              "RelativeDocumentMoniker": "src\\Tuna.AutoCAD.Toolkit.Filter\\LogicalOrFilter.cs",
+              "ToolTip": "C:\\Users\\YuiX\\source\\repos\\Tuna.AutoCAD.Toolkit\\src\\Tuna.AutoCAD.Toolkit.Filter\\LogicalOrFilter.cs",
+              "RelativeToolTip": "src\\Tuna.AutoCAD.Toolkit.Filter\\LogicalOrFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T08:51:47.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "LayerFilter.cs",
               "DocumentMoniker": "C:\\Users\\YuiX\\source\\repos\\Tuna.AutoCAD.Toolkit\\src\\Tuna.AutoCAD.Toolkit.Filter\\LayerFilter.cs",
               "RelativeDocumentMoniker": "src\\Tuna.AutoCAD.Toolkit.Filter\\LayerFilter.cs",
@@ -64,19 +103,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LogicalFilter.cs",
-              "DocumentMoniker": "C:\\Users\\YuiX\\source\\repos\\Tuna.AutoCAD.Toolkit\\src\\Tuna.AutoCAD.Toolkit.Filter\\LogicalFilter.cs",
-              "RelativeDocumentMoniker": "src\\Tuna.AutoCAD.Toolkit.Filter\\LogicalFilter.cs",
-              "ToolTip": "C:\\Users\\YuiX\\source\\repos\\Tuna.AutoCAD.Toolkit\\src\\Tuna.AutoCAD.Toolkit.Filter\\LogicalFilter.cs",
-              "RelativeToolTip": "src\\Tuna.AutoCAD.Toolkit.Filter\\LogicalFilter.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAiwDUAAAAcAAAAAAAAAA==",
+              "Title": "FilterTest.cs",
+              "DocumentMoniker": "C:\\Users\\YuiX\\source\\repos\\Tuna.AutoCAD.Toolkit\\tests\\tuna.AutoCAD.Toolkit.Filter.Tests\\FilterTest.cs",
+              "RelativeDocumentMoniker": "tests\\tuna.AutoCAD.Toolkit.Filter.Tests\\FilterTest.cs",
+              "ToolTip": "C:\\Users\\YuiX\\source\\repos\\Tuna.AutoCAD.Toolkit\\tests\\tuna.AutoCAD.Toolkit.Filter.Tests\\FilterTest.cs",
+              "RelativeToolTip": "tests\\tuna.AutoCAD.Toolkit.Filter.Tests\\FilterTest.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAswCEAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T09:19:53.59Z",
+              "WhenOpened": "2024-09-01T10:56:07.306Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "FilterBase.cs",
               "DocumentMoniker": "C:\\Users\\YuiX\\source\\repos\\Tuna.AutoCAD.Toolkit\\src\\Tuna.AutoCAD.Toolkit.Filter\\FilterBase.cs",
               "RelativeDocumentMoniker": "src\\Tuna.AutoCAD.Toolkit.Filter\\FilterBase.cs",
@@ -89,54 +128,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LogicalOrFilter.cs",
-              "DocumentMoniker": "C:\\Users\\YuiX\\source\\repos\\Tuna.AutoCAD.Toolkit\\src\\Tuna.AutoCAD.Toolkit.Filter\\LogicalOrFilter.cs",
-              "RelativeDocumentMoniker": "src\\Tuna.AutoCAD.Toolkit.Filter\\LogicalOrFilter.cs",
-              "ToolTip": "C:\\Users\\YuiX\\source\\repos\\Tuna.AutoCAD.Toolkit\\src\\Tuna.AutoCAD.Toolkit.Filter\\LogicalOrFilter.cs",
-              "RelativeToolTip": "src\\Tuna.AutoCAD.Toolkit.Filter\\LogicalOrFilter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T08:51:47.452Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FilterTest.cs",
-              "DocumentMoniker": "C:\\Users\\YuiX\\source\\repos\\Tuna.AutoCAD.Toolkit\\tests\\tuna.AutoCAD.Toolkit.Filter.Tests\\FilterTest.cs",
-              "RelativeDocumentMoniker": "tests\\tuna.AutoCAD.Toolkit.Filter.Tests\\FilterTest.cs",
-              "ToolTip": "C:\\Users\\YuiX\\source\\repos\\Tuna.AutoCAD.Toolkit\\tests\\tuna.AutoCAD.Toolkit.Filter.Tests\\FilterTest.cs",
-              "RelativeToolTip": "tests\\tuna.AutoCAD.Toolkit.Filter.Tests\\FilterTest.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAlwCYAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T10:56:07.306Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LogicalAndFilter.cs",
-              "DocumentMoniker": "C:\\Users\\YuiX\\source\\repos\\Tuna.AutoCAD.Toolkit\\src\\Tuna.AutoCAD.Toolkit.Filter\\LogicalAndFilter.cs",
-              "RelativeDocumentMoniker": "src\\Tuna.AutoCAD.Toolkit.Filter\\LogicalAndFilter.cs",
-              "ToolTip": "C:\\Users\\YuiX\\source\\repos\\Tuna.AutoCAD.Toolkit\\src\\Tuna.AutoCAD.Toolkit.Filter\\LogicalAndFilter.cs",
-              "RelativeToolTip": "src\\Tuna.AutoCAD.Toolkit.Filter\\LogicalAndFilter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T08:50:52.942Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "ClassFilter.cs",
-              "DocumentMoniker": "C:\\Users\\YuiX\\source\\repos\\Tuna.AutoCAD.Toolkit\\src\\Tuna.AutoCAD.Toolkit.Filter\\ClassFilter.cs",
-              "RelativeDocumentMoniker": "src\\Tuna.AutoCAD.Toolkit.Filter\\ClassFilter.cs",
-              "ToolTip": "C:\\Users\\YuiX\\source\\repos\\Tuna.AutoCAD.Toolkit\\src\\Tuna.AutoCAD.Toolkit.Filter\\ClassFilter.cs",
-              "RelativeToolTip": "src\\Tuna.AutoCAD.Toolkit.Filter\\ClassFilter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAXAAAAAAAAAA==",
+              "Title": "LogicalFilter.cs",
+              "DocumentMoniker": "C:\\Users\\YuiX\\source\\repos\\Tuna.AutoCAD.Toolkit\\src\\Tuna.AutoCAD.Toolkit.Filter\\LogicalFilter.cs",
+              "RelativeDocumentMoniker": "src\\Tuna.AutoCAD.Toolkit.Filter\\LogicalFilter.cs",
+              "ToolTip": "C:\\Users\\YuiX\\source\\repos\\Tuna.AutoCAD.Toolkit\\src\\Tuna.AutoCAD.Toolkit.Filter\\LogicalFilter.cs",
+              "RelativeToolTip": "src\\Tuna.AutoCAD.Toolkit.Filter\\LogicalFilter.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAiwDIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T08:47:30.326Z",
+              "WhenOpened": "2024-09-01T09:19:53.59Z",
               "EditorCaption": ""
             },
             {

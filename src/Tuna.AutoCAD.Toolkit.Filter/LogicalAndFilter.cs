@@ -15,6 +15,10 @@ public sealed class LogicalAndFilter : LogicalFilter
 {
     public LogicalAndFilter(params FilterBase[] filters) : base("And", filters)
     {
-
+        var typeGrounp = filters.GroupBy(filter => filter.GetType());
+        if (typeGrounp.Any(g => g.Count() > 1))
+        {
+            throw new Exception("Logical and can not contains the same conditions");
+        }
     }
 }
