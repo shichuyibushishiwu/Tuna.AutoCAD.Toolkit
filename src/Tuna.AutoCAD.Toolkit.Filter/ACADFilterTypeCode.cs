@@ -5,7 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Tuna.AutoCAD.Toolkit.Filter;
-
+/// <summary>
+/// Acad filter type code
+/// </summary>
 public class ACADFilterTypeCode
 {
     /// <summary>
@@ -22,4 +24,9 @@ public class ACADFilterTypeCode
     /// <see cref="Autodesk.AutoCAD.DatabaseServices.DxfCode.LayerName"/>
     /// </summary>
     public const short LayerName = 8;
+
+    /// <summary>
+    /// <see cref="Autodesk.AutoCAD.DatabaseServices.DxfCode.Color"/>
+    /// </summary>
+    public const short Color = 62;
 }

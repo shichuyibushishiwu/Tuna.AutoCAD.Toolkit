@@ -26,6 +26,14 @@ public class FilterTests
         Assert.Pass();
     }
 
+    [Test]
+    public void ColorTest()
+    {
+        ColorFilter colorFilter = new ColorFilter(1);
+        Console.WriteLine(colorFilter);
+        Assert.Pass();
+    }
+
 
     [Test]
     public void LogicalAndTest()

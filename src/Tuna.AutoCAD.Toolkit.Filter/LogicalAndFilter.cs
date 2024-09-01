@@ -14,7 +14,7 @@ namespace Tuna.AutoCAD.Toolkit.Filter;
 public sealed class LogicalAndFilter : LogicalFilter
 {
     /// <summary>
-    /// 
+    /// Create a logical and filter
     /// </summary>
     /// <param name="filters"></param>
     /// <exception cref="Exception"></exception>

@@ -60,8 +60,8 @@ public sealed class ClassFilter : FilterBase
         /// <summary>
         /// Defined a acad type map
         /// </summary>
-        /// <param name="type"></param>
-        /// <param name="code"></param>
+        /// <param name="type">Acad entity type</param>
+        /// <param name="code">Acad entity code</param>
         public ACADTypeDescriptor(Type type, string code)
         {
             Type = type;
@@ -79,6 +79,10 @@ public sealed class ClassFilter : FilterBase
         public string Code { get; set; }
     }
 
+    /// <summary>
+    /// <inheritdoc/>
+    /// </summary>
+    /// <returns></returns>
     public override string ToString()
     {
         return $"{GetCodeAttribute()?.DxfCode} = {Code}";
