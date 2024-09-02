@@ -24,5 +24,6 @@ public class ParameterFilter : FilterBase
 
         LogicalAndFilter logicalAndFilter = new LogicalAndFilter(new ClassFilter(type));
 
+     
     }
 }

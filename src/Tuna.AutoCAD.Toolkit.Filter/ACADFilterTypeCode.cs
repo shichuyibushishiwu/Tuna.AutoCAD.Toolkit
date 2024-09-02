@@ -19,7 +19,7 @@ public class AcadFilterTypeCode
     /// <summary>
     /// <see cref="Autodesk.AutoCAD.DatabaseServices.DxfCode.Start"/>
     /// </summary>
-    public const short Class = 1;
+    public const short Class = 0;
 
     /// <summary>
     /// <see cref="Autodesk.AutoCAD.DatabaseServices.DxfCode.LayerName"/>
