@@ -5,14 +5,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Tuna.AutoCAD.Toolkit.Filter
+namespace Tuna.AutoCAD.Toolkit.Filter;
+
+/// <summary>
+/// 
+/// </summary>
+public class FilterStringContainsRule : FilterRule
 {
-    public class FilterStringContainsRule : FilterRule
+    public FilterStringContainsRule(short parameterCode, string value)
     {
-        public FilterStringContainsRule(short parameterCode, string value)
-        {
-            LogicalAndFilter filter = new LogicalAndFilter();
-            new TypedValue(AcadFilterTypeCode.Operator, $"*{value}*");
-        }
+        this.TypedValue = new TypedValue(parameterCode, $"*{value}*");
     }
 }

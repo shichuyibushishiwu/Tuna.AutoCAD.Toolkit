@@ -23,7 +23,7 @@ public class FilterTests
     {
         LayerFilter layerFilter = new LayerFilter("Wall");
         Console.WriteLine(layerFilter);
-        Assert.Pass();
+        Assert.That(layerFilter.TypeValues.Length, Is.EqualTo(1));
     }
 
     [Test]
@@ -31,7 +31,7 @@ public class FilterTests
     {
         ColorFilter colorFilter = new ColorFilter(1);
         Console.WriteLine(colorFilter);
-        Assert.Pass();
+        Assert.That(colorFilter.TypeValues.Length, Is.EqualTo(1));
     }
 
 
@@ -55,7 +55,7 @@ public class FilterTests
         LogicalOrFilter logicalAndFilter = new LogicalOrFilter(classFilter, textCLass);
         Console.WriteLine(logicalAndFilter);
 
-        Assert.Pass();
+        Assert.That(logicalAndFilter.TypeValues.Length, Is.EqualTo(4));
     }
 
     [Test]
@@ -66,7 +66,7 @@ public class FilterTests
         LogicalNotFilter logicalAndFilter = new LogicalNotFilter(classFilter, textCLass);
         Console.WriteLine(logicalAndFilter);
 
-        Assert.Pass();
+        Assert.That(logicalAndFilter.TypeValues.Length, Is.EqualTo(4));
     }
 
     [Test]
@@ -78,15 +78,17 @@ public class FilterTests
         LogicalAndFilter logicalAndFilter = new LogicalAndFilter(classFilter, logicalOrFilter);
         Console.WriteLine(logicalAndFilter);
 
-        Assert.Pass();
+        Assert.That(logicalAndFilter.TypeValues.Length, Is.EqualTo(7));
     }
 
     [Test]
     public void ParameterFilterTest()
     {
-        ParameterFilter parameterFilter = new ParameterFilter(typeof(BlockReference),
-            new FilterStringContainsRule(BuiltinParameters.BlockReference
-            .BlockName, "s"));
+        ParameterFilter parameterFilter = new ParameterFilter(
+            typeof(BlockReference),
+            new FilterStringContainsRule(BuiltinParameters.BlockReference.BlockName, "s"));
+
         Console.WriteLine(parameterFilter);
+       
     }
 }
