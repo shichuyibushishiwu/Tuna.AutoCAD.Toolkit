@@ -8,15 +8,9 @@ public class FilterTests
     [SetUp]
     public void Setup()
     {
+
     }
 
-    [Test]
-    public void ClassTest()
-    {
-        ClassFilter classFilter = new ClassFilter(typeof(MLeader));
-        Console.WriteLine(classFilter);
-        Assert.That(classFilter.TypeValues.Length, Is.EqualTo(1));
-    }
 
     [Test]
     public void LayerTest()

@@ -40,13 +40,13 @@ public sealed class ClassFilter : FilterBase
             throw new ArgumentNullException("type can not be null");
         }
 
-        AcadTypeDescriptor? descriptor = TypeDescriptors.FirstOrDefault(descriptor => descriptor.Type == type);
-        if (descriptor == null)
+        AcadTypeDescriptor descriptor = TypeDescriptors.FirstOrDefault(descriptor => descriptor.Type == type);
+        if (descriptor.Invaild())
         {
-            throw new ArgumentNullException($"can not find {type} in allowed type list");
+            throw new ArgumentException($"can not find {type} in allowed type list");
         }
 
-        Code = descriptor.Value.Code;
+        Code = descriptor.Code;
         TypeValues = [new TypedValue(AcadFilterTypeCode.Class, Code)];
     }
 
@@ -77,12 +77,19 @@ public sealed class ClassFilter : FilterBase
         /// Entity code
         /// </summary>
         public string Code { get; set; }
+
+        /// <summary>
+        /// Detemined value is null
+        /// </summary>
+        /// <param name="descriptor"></param>
+        /// <returns></returns>
+        public bool Invaild()
+        {
+            return Type == null;
+        }
     }
 
-    /// <summary>
     /// <inheritdoc/>
-    /// </summary>
-    /// <returns></returns>
     public override string ToString()
     {
         return $"{GetCodeAttribute()?.DxfCode} = {Code}";
